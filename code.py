@@ -1,4 +1,5 @@
-
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 # coding: utf-8
 
 # # Language Translation
@@ -13,6 +14,7 @@ DON'T MODIFY ANYTHING IN THIS CELL
 """
 import helper
 import problem_unittests as tests
+import os
 
 source_path = 'data/small_vocab_en'
 target_path = 'data/small_vocab_fr'
@@ -45,7 +47,7 @@ print('English sentences {} to {}:'.format(*view_sentence_range))
 print('\n'.join(source_text.split('\n')[view_sentence_range[0]:view_sentence_range[1]]))
 print()
 print('French sentences {} to {}:'.format(*view_sentence_range))
-print('\n'.join(target_text.split('\n')[view_sentence_range[0]:view_sentence_range[1]]))
+#print('\n'.join(target_text.split('\n')[view_sentence_range[0]:view_sentence_range[1]]))
 
 
 # ## Implement Preprocessing Function
@@ -437,6 +439,9 @@ keep_probability = 0.7
 DON'T MODIFY ANYTHING IN THIS CELL
 """
 save_path = 'checkpoints/dev'
+if not os.path.exists(save_path):
+    os.makedirs(save_path)
+
 (source_int_text, target_int_text), (source_vocab_to_int, target_vocab_to_int), _ = helper.load_preprocess()
 max_target_sentence_length = max([len(sentence) for sentence in source_int_text])
 
