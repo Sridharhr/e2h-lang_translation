@@ -1,0 +1,292 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla P100-SXM2-16GB
+major: 6 minor: 0 memoryClockRate (GHz) 1.4805
+pciBusID 0003:01:00.0
+Total memory: 15.90GiB
+Free memory: 446.81MiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0003:01:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0003:01:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0003:01:00.0)
+I tensorflow/compiler/xla/service/platform_util.cc:58] platform CUDA present with 1 visible devices
+I tensorflow/compiler/xla/service/platform_util.cc:58] platform Host present with 128 visible devices
+I tensorflow/compiler/xla/service/service.cc:180] XLA service executing computations on platform Host. Devices:
+I tensorflow/compiler/xla/service/service.cc:187]   StreamExecutor device (0): <undefined>, <undefined>
+I tensorflow/compiler/xla/service/platform_util.cc:58] platform CUDA present with 1 visible devices
+I tensorflow/compiler/xla/service/platform_util.cc:58] platform Host present with 128 visible devices
+I tensorflow/compiler/xla/service/service.cc:180] XLA service executing computations on platform CUDA. Devices:
+I tensorflow/compiler/xla/service/service.cc:187]   StreamExecutor device (0): Tesla P100-SXM2-16GB, Compute Capability 6.0
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0003:01:00.0)
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4797 get requests, put_count=3983 evicted_count=1000 eviction_rate=0.251067 and unsatisfied allocation rate=0.398999
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 5724 get requests, put_count=5235 evicted_count=1000 eviction_rate=0.191022 and unsatisfied allocation rate=0.264151
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 8736 get requests, put_count=8745 evicted_count=1000 eviction_rate=0.114351 and unsatisfied allocation rate=0.120192
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 655 to 720
+Dataset Stats
+Roughly the number of unique words: 227
+Number of sentences: 137861
+Average number of words in a sentence: 13.2252776347
+()
+English sentences 0 to 10:
+new jersey is sometimes quiet during autumn , and it is snowy in april .
+the united states is usually chilly during july , and it is usually freezing in november .
+california is usually quiet during march , and it is usually hot in june .
+the united states is sometimes mild during june , and it is cold in september .
+your least liked fruit is the grape , but my least liked is the apple .
+his favorite fruit is the orange , but my favorite is the grape .
+paris is relaxing during december , but it is usually chilly in july .
+new jersey is busy during spring , and it is never hot in march .
+our least liked fruit is the lemon , but my least liked is the grape .
+the united states is sometimes busy during january , and it is sometimes warm in november .
+()
+French sentences 0 to 10:
+Tests Passed
+TensorFlow Version: 1.0.1
+Default GPU Device: /gpu:0
+Tests Passed
+Tests Passed
+Tests Passed
+Tests Passed
+Tests Passed
+Tests Passed
+Tests Passed
+Epoch   0 Batch    0/1077 - Train Accuracy:  0.294, Validation Accuracy:  0.305, Loss:  5.827
+Epoch   0 Batch  100/1077 - Train Accuracy:  0.282, Validation Accuracy:  0.353, Loss:  3.268
+Epoch   0 Batch  200/1077 - Train Accuracy:  0.331, Validation Accuracy:  0.380, Loss:  2.866
+Epoch   0 Batch  300/1077 - Train Accuracy:  0.313, Validation Accuracy:  0.410, Loss:  2.816
+Epoch   0 Batch  400/1077 - Train Accuracy:  0.393, Validation Accuracy:  0.453, Loss:  2.577
+Epoch   0 Batch  500/1077 - Train Accuracy:  0.431, Validation Accuracy:  0.467, Loss:  2.342
+Epoch   0 Batch  600/1077 - Train Accuracy:  0.496, Validation Accuracy:  0.500, Loss:  2.019
+Epoch   0 Batch  700/1077 - Train Accuracy:  0.452, Validation Accuracy:  0.495, Loss:  1.861
+Epoch   0 Batch  800/1077 - Train Accuracy:  0.429, Validation Accuracy:  0.475, Loss:  1.718
+Epoch   0 Batch  900/1077 - Train Accuracy:  0.423, Validation Accuracy:  0.458, Loss:  1.553
+Epoch   0 Batch 1000/1077 - Train Accuracy:  0.475, Validation Accuracy:  0.472, Loss:  1.305
+Epoch   1 Batch    0/1077 - Train Accuracy:  0.437, Validation Accuracy:  0.436, Loss:  1.233
+Epoch   1 Batch  100/1077 - Train Accuracy:  0.422, Validation Accuracy:  0.477, Loss:  1.190
+Epoch   1 Batch  200/1077 - Train Accuracy:  0.445, Validation Accuracy:  0.469, Loss:  1.132
+Epoch   1 Batch  300/1077 - Train Accuracy:  0.431, Validation Accuracy:  0.461, Loss:  1.112
+Epoch   1 Batch  400/1077 - Train Accuracy:  0.516, Validation Accuracy:  0.537, Loss:  1.014
+Epoch   1 Batch  500/1077 - Train Accuracy:  0.527, Validation Accuracy:  0.554, Loss:  0.980
+Epoch   1 Batch  600/1077 - Train Accuracy:  0.569, Validation Accuracy:  0.575, Loss:  0.895
+Epoch   1 Batch  700/1077 - Train Accuracy:  0.529, Validation Accuracy:  0.574, Loss:  0.895
+Epoch   1 Batch  800/1077 - Train Accuracy:  0.537, Validation Accuracy:  0.581, Loss:  0.887
+Epoch   1 Batch  900/1077 - Train Accuracy:  0.575, Validation Accuracy:  0.602, Loss:  0.860
+Epoch   1 Batch 1000/1077 - Train Accuracy:  0.621, Validation Accuracy:  0.592, Loss:  0.765
+Epoch   2 Batch    0/1077 - Train Accuracy:  0.596, Validation Accuracy:  0.603, Loss:  0.757
+Epoch   2 Batch  100/1077 - Train Accuracy:  0.595, Validation Accuracy:  0.620, Loss:  0.778
+Epoch   2 Batch  200/1077 - Train Accuracy:  0.581, Validation Accuracy:  0.609, Loss:  0.765
+Epoch   2 Batch  300/1077 - Train Accuracy:  0.585, Validation Accuracy:  0.618, Loss:  0.748
+Epoch   2 Batch  400/1077 - Train Accuracy:  0.598, Validation Accuracy:  0.609, Loss:  0.719
+Epoch   2 Batch  500/1077 - Train Accuracy:  0.620, Validation Accuracy:  0.628, Loss:  0.694
+Epoch   2 Batch  600/1077 - Train Accuracy:  0.613, Validation Accuracy:  0.627, Loss:  0.642
+Epoch   2 Batch  700/1077 - Train Accuracy:  0.604, Validation Accuracy:  0.631, Loss:  0.661
+Epoch   2 Batch  800/1077 - Train Accuracy:  0.591, Validation Accuracy:  0.623, Loss:  0.668
+Epoch   2 Batch  900/1077 - Train Accuracy:  0.611, Validation Accuracy:  I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 12143811 get requests, put_count=12143820 evicted_count=6000 eviction_rate=0.000494078 and unsatisfied allocation rate=0.000501161
+0.645, Loss:  0.643
+Epoch   2 Batch 1000/1077 - Train Accuracy:  0.657, Validation Accuracy:  0.656, Loss:  0.569
+Epoch   3 Batch    0/1077 - Train Accuracy:  0.667, Validation Accuracy:  0.651, Loss:  0.568
+Epoch   3 Batch  100/1077 - Train Accuracy:  0.646, Validation Accuracy:  0.658, Loss:  0.601
+Epoch   3 Batch  200/1077 - Train Accuracy:  0.618, Validation Accuracy:  0.657, Loss:  0.593
+Epoch   3 Batch  300/1077 - Train Accuracy:  0.664, Validation Accuracy:  0.673, Loss:  0.565
+Epoch   3 Batch  400/1077 - Train Accuracy:  0.678, Validation Accuracy:  0.685, Loss:  0.553
+Epoch   3 Batch  500/1077 - Train Accuracy:  0.677, Validation Accuracy:  0.694, Loss:  0.534
+Epoch   3 Batch  600/1077 - Train Accuracy:  0.694, Validation Accuracy:  0.700, Loss:  0.495
+Epoch   3 Batch  700/1077 - Train Accuracy:  0.680, Validation Accuracy:  0.690, Loss:  0.486
+Epoch   3 Batch  800/1077 - Train Accuracy:  0.672, Validation Accuracy:  0.691, Loss:  0.506
+Epoch   3 Batch  900/1077 - Train Accuracy:  0.705, Validation Accuracy:  0.700, Loss:  0.480
+Epoch   3 Batch 1000/1077 - Train Accuracy:  0.710, Validation Accuracy:  0.699, Loss:  0.431
+Epoch   4 Batch    0/1077 - Train Accuracy:  0.695, Validation Accuracy:  0.708, Loss:  0.442
+Epoch   4 Batch  100/1077 - Train Accuracy:  0.719, Validation Accuracy:  0.731, Loss:  0.459
+Epoch   4 Batch  200/1077 - Train Accuracy:  0.703, Validation Accuracy:  0.730, Loss:  0.444
+Epoch   4 Batch  300/1077 - Train Accuracy:  0.766, Validation Accuracy:  0.746, Loss:  0.435
+Epoch   4 Batch  400/1077 - Train Accuracy:  0.726, Validation Accuracy:  0.738, Loss:  0.421
+Epoch   4 Batch  500/1077 - Train Accuracy:  0.748, Validation Accuracy:  0.745, Loss:  0.396
+Epoch   4 Batch  600/1077 - Train Accuracy:  0.779, Validation Accuracy:  0.755, Loss:  0.362
+Epoch   4 Batch  700/1077 - Train Accuracy:  0.751, Validation Accuracy:  0.764, Loss:  0.373
+Epoch   4 Batch  800/1077 - Train Accuracy:  0.754, Validation Accuracy:  0.766, Loss:  0.377
+Epoch   4 Batch  900/1077 - Train Accuracy:  0.791, Validation Accuracy:  0.765, Loss:  0.369
+Epoch   4 Batch 1000/1077 - Train Accuracy:  0.813, Validation Accuracy:  0.770, Loss:  0.324
+Epoch   5 Batch    0/1077 - Train Accuracy:  0.789, Validation Accuracy:  0.767, Loss:  0.312
+Epoch   5 Batch  100/1077 - Train Accuracy:  0.788, Validation Accuracy:  0.797, Loss:  0.345
+Epoch   5 Batch  200/1077 - Train Accuracy:  0.768, Validation Accuracy:  0.800, Loss:  0.338
+Epoch   5 Batch  300/1077 - Train Accuracy:  0.811, Validation Accuracy:  0.801, Loss:  0.326
+Epoch   5 Batch  400/1077 - Train Accuracy:  0.841, Validation Accuracy:  0.791, Loss:  0.326
+Epoch   5 Batch  500/1077 - Train Accuracy:  0.846, Validation Accuracy:  0.794, Loss:  0.303
+Epoch   5 Batch  600/1077 - Train Accuracy:  0.818, Validation Accuracy:  0.815, Loss:  0.293
+Epoch   5 Batch  700/1077 - Train Accuracy:  0.784, Validation Accuracy:  0.806, Loss:  0.278
+Epoch   5 Batch  800/1077 - Train Accuracy:  0.802, Validation Accuracy:  0.799, Loss:  0.294
+Epoch   5 Batch  900/1077 - Train Accuracy:  0.828, Validation Accuracy:  0.819, Loss:  0.302
+Epoch   5 Batch 1000/1077 - Train Accuracy:  0.842, Validation Accuracy:  0.796, Loss:  0.263
+Epoch   6 Batch    0/1077 - Train Accuracy:  0.830, Validation Accuracy:  0.816, Loss:  0.253
+Epoch   6 Batch  100/1077 - Train Accuracy:  0.836, Validation Accuracy:  0.818, Loss:  0.276
+Epoch   6 Batch  200/1077 - Train Accuracy:  0.791, Validation Accuracy:  0.816, Loss:  0.267
+Epoch   6 Batch  300/1077 - Train Accuracy:  0.863, Validation Accuracy:  0.829, Loss:  0.255
+Epoch   6 Batch  400/1077 - Train Accuracy:  0.864, Validation Accuracy:  0.828, Loss:  0.278
+Epoch   6 Batch  500/1077 - Train Accuracy:  0.858, Validation Accuracy:  0.825, Loss:  0.254
+Epoch   6 Batch  600/1077 - Train Accuracy:  0.847, Validation Accuracy:  0.812, Loss:  0.242
+Epoch   6 Batch  700/1077 - Train Accuracy:  0.818, Validation Accuracy:  0.828, Loss:  0.230
+Epoch   6 Batch  800/1077 - Train Accuracy:  0.829, Validation Accuracy:  0.812, Loss:  0.241
+Epoch   6 Batch  900/1077 - Train I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 29294990 get requests, put_count=29294998 evicted_count=16000 eviction_rate=0.000546168 and unsatisfied allocation rate=0.000549138
+Accuracy:  0.861, Validation Accuracy:  0.815, Loss:  0.227
+Epoch   6 Batch 1000/1077 - Train Accuracy:  0.875, Validation Accuracy:  0.823, Loss:  0.219
+Epoch   7 Batch    0/1077 - Train Accuracy:  0.861, Validation Accuracy:  0.817, Loss:  0.206
+Epoch   7 Batch  100/1077 - Train Accuracy:  0.855, Validation Accuracy:  0.839, Loss:  0.216
+Epoch   7 Batch  200/1077 - Train Accuracy:  0.826, Validation Accuracy:  0.831, Loss:  0.233
+Epoch   7 Batch  300/1077 - Train Accuracy:  0.869, Validation Accuracy:  0.837, Loss:  0.211
+Epoch   7 Batch  400/1077 - Train Accuracy:  0.870, Validation Accuracy:  0.831, Loss:  0.238
+Epoch   7 Batch  500/1077 - Train Accuracy:  0.877, Validation Accuracy:  0.828, Loss:  0.197
+Epoch   7 Batch  600/1077 - Train Accuracy:  0.867, Validation Accuracy:  0.839, Loss:  0.195
+Epoch   7 Batch  700/1077 - Train Accuracy:  0.861, Validation Accuracy:  0.835, Loss:  0.192
+Epoch   7 Batch  800/1077 - Train Accuracy:  0.851, Validation Accuracy:  0.832, Loss:  0.199
+Epoch   7 Batch  900/1077 - Train Accuracy:  0.872, Validation Accuracy:  0.850, Loss:  0.202
+Epoch   7 Batch 1000/1077 - Train Accuracy:  0.884, Validation Accuracy:  0.847, Loss:  0.181
+Epoch   8 Batch    0/1077 - Train Accuracy:  0.889, Validation Accuracy:  0.835, Loss:  0.167
+Epoch   8 Batch  100/1077 - Train Accuracy:  0.878, Validation Accuracy:  0.841, Loss:  0.200
+Epoch   8 Batch  200/1077 - Train Accuracy:  0.856, Validation Accuracy:  0.848, Loss:  0.196
+Epoch   8 Batch  300/1077 - Train Accuracy:  0.903, Validation Accuracy:  0.850, Loss:  0.173
+Epoch   8 Batch  400/1077 - Train Accuracy:  0.875, Validation Accuracy:  0.848, Loss:  0.201
+Epoch   8 Batch  500/1077 - Train Accuracy:  0.893, Validation Accuracy:  0.861, Loss:  0.177
+Epoch   8 Batch  600/1077 - Train Accuracy:  0.869, Validation Accuracy:  0.865, Loss:  0.171
+Epoch   8 Batch  700/1077 - Train Accuracy:  0.863, Validation Accuracy:  0.847, Loss:  0.162
+Epoch   8 Batch  800/1077 - Train Accuracy:  0.873, Validation Accuracy:  0.862, Loss:  0.177
+Epoch   8 Batch  900/1077 - Train Accuracy:  0.875, Validation Accuracy:  0.859, Loss:  0.174
+Epoch   8 Batch 1000/1077 - Train Accuracy:  0.907, Validation Accuracy:  0.863, Loss:  0.165
+Epoch   9 Batch    0/1077 - Train Accuracy:  0.881, Validation Accuracy:  0.857, Loss:  0.148
+Epoch   9 Batch  100/1077 - Train Accuracy:  0.902, Validation Accuracy:  0.837, Loss:  0.158
+Epoch   9 Batch  200/1077 - Train Accuracy:  0.858, Validation Accuracy:  0.861, Loss:  0.164
+Epoch   9 Batch  300/1077 - Train Accuracy:  0.928, Validation Accuracy:  0.871, Loss:  0.160
+Epoch   9 Batch  400/1077 - Train Accuracy:  0.893, Validation Accuracy:  0.874, Loss:  0.175
+Epoch   9 Batch  500/1077 - Train Accuracy:  0.907, Validation Accuracy:  0.877, Loss:  0.141
+Epoch   9 Batch  600/1077 - Train Accuracy:  0.899, Validation Accuracy:  0.869, Loss:  0.146
+Epoch   9 Batch  700/1077 - Train Accuracy:  0.885, Validation Accuracy:  0.864, Loss:  0.147
+Epoch   9 Batch  800/1077 - Train Accuracy:  0.892, Validation Accuracy:  0.866, Loss:  0.152
+Epoch   9 Batch  900/1077 - Train Accuracy:  0.889, Validation Accuracy:  0.888, Loss:  0.153
+Epoch   9 Batch 1000/1077 - Train Accuracy:  0.902, Validation Accuracy:  0.883, Loss:  0.147
+Epoch  10 Batch    0/1077 - Train Accuracy:  0.901, Validation Accuracy:  0.875, Loss:  0.124
+Epoch  10 Batch  100/1077 - Train Accuracy:  0.904, Validation Accuracy:  0.871, Loss:  0.137
+Epoch  10 Batch  200/1077 - Train Accuracy:  0.882, Validation Accuracy:  0.855, Loss:  0.140
+Epoch  10 Batch  300/1077 - Train Accuracy:  0.920, Validation Accuracy:  0.886, Loss:  0.129
+Epoch  10 Batch  400/1077 - Train Accuracy:  0.898, Validation Accuracy:  0.876, Loss:  0.150
+Epoch  10 Batch  500/1077 - Train Accuracy:  0.906, Validation Accuracy:  0.857, Loss:  0.115
+Epoch  10 Batch  600/1077 - Train Accuracy:  0.913, Validation Accuracy:  0.873, Loss:  0.136
+Epoch  10 Batch  700/1077 - Train Accuracy:  0.898, Validation Accuracy:  0.884, Loss:  0.117
+Epoch  10 Batch  800/1077 - Train Accuracy:  0.913, Validation Accuracy:  0.879, Loss:  0.138
+Epoch  10 Batch  900/1077 - Train Accuracy:  0.910, Validation Accuracy:  0.872, Loss:  0.134
+Epoch  10 Batch 1000/1077 - Train Accuracy:  0.903, Validation Accuracy:  0.862, Loss:  0.123
+Epoch  11 Batch    0/1077 - Train Accuracy:  0.903, Validation Accuracy:  0.860, Loss:  0.105
+Epoch  11 Batch  100/1077 - Train Accuracy:  0.914, Validation Accuracy:  0.886, Loss:  0.126
+Epoch  11 Batch  200/1077 - Train Accuracy:  0.897, Validation Accuracy:  0.868, Loss:  0.132
+Epoch  11 Batch  300/1077 - Train Accuracy:  0.936, Validation Accuracy:  0.897, Loss:  0.110
+Epoch  11 Batch  400/1077 - Train Accuracy:  0.907, Validation Accuracy:  0.882, Loss:  0.131
+Epoch  11 Batch  500/1077 - Train Accuracy:  0.928, Validation Accuracy:  0.889, Loss:  0.103
+Epoch  11 Batch  600/1077 - Train Accuracy:  0.919, Validation Accuracy:  0.896, Loss:  0.121
+Epoch  11 Batch  700/1077 - Train Accuracy:  0.915, Validation Accuracy:  0.877, Loss:  0.108
+Epoch  11 Batch  800/1077 - Train Accuracy:  0.912, Validation Accuracy:  0.901, Loss:  0.120
+Epoch  11 Batch  900/1077 - Train Accuracy:  0.916, Validation Accuracy:  0.895, Loss:  0.134
+Epoch  11 Batch 1000/1077 - Train Accuracy:  0.906, Validation Accuracy:  0.872, Loss:  0.107
+Epoch  12 Batch    0/1077 - Train Accuracy:  0.933, Validation Accuracy:  0.887, Loss:  0.100
+Epoch  12 Batch  100/1077 - Train Accuracy:  0.911, Validation Accuracy:  0.881, Loss:  0.115
+Epoch  12 Batch  200/1077 - Train Accuracy:  0.916, Validation Accuracy:  0.892, Loss:  0.119
+Epoch  12 Batch  300/1077 - Train Accuracy:  0.944, Validation Accuracy:  0.898, Loss:  0.096
+Epoch  12 Batch  400/1077 - Train Accuracy:  0.925, Validation Accuracy:  0.887, Loss:  0.121
+Epoch  12 Batch  500/1077 - Train Accuracy:  0.934, Validation Accuracy:  0.903, Loss:  0.095
+Epoch  12 Batch  600/1077 - Train Accuracy:  0.933, Validation Accuracy:  0.887, Loss:  0.112
+Epoch  12 Batch  700/1077 - Train Accuracy:  0.919, Validation Accuracy:  0.898, Loss:  0.097
+Epoch  12 Batch  800/1077 - Train Accuracy:  0.919, Validation Accuracy:  0.908, Loss:  0.109
+Epoch  12 Batch  900/1077 - Train Accuracy:  0.917, Validation Accuracy:  0.893, Loss:  0.101
+Epoch  12 Batch 1000/1077 - Train Accuracy:  0.909, Validation Accuracy:  0.888, Loss:  0.094
+Epoch  13 Batch    0/1077 - Train Accuracy:  0.928, Validation Accuracy:  0.895, Loss:  0.086
+Epoch  13 Batch  100/1077 - Train Accuracy:  0.935, Validation Accuracy:  0.903, Loss:  0.103
+Epoch  13 Batch  200/1077 - Train Accuracy:  0.897, Validation Accuracy:  0.891, Loss:  0.102
+Epoch  13 Batch  300/1077 - Train Accuracy:  0.956, Validation Accuracy:  0.889, Loss:  0.093
+Epoch  13 Batch  400/1077 - Train Accuracy:  0.908, Validation Accuracy:  0.904, Loss:  0.108
+Epoch  13 Batch  500/1077 - Train Accuracy:  0.924, Validation Accuracy:  0.896, Loss:  0.087
+Epoch  13 Batch  600/1077 - Train Accuracy:  0.929, Validation Accuracy:  0.897, Loss:  0.097
+Epoch  13 Batch  700/1077 - Train Accuracy:  0.924, Validation Accuracy:  0.900, Loss:  0.090
+Epoch  13 Batch  800/1077 - Train Accuracy:  0.926, Validation Accuracy:  0.917, Loss:  0.097
+Epoch  13 Batch  900/1077 - Train Accuracy:  0.921, Validation Accuracy:  0.904, Loss:  0.095
+Epoch  13 Batch 1000/1077 - Train Accuracy:  0.916, Validation Accuracy:  0.897, Loss:  0.091
+Epoch  14 Batch    0/1077 - Train Accuracy:  0.932, Validation Accuracy:  0.895, Loss:  0.080
+Epoch  14 Batch  100/1077 - Train Accuracy:  0.941, Validation Accuracy:  0.891, Loss:  0.093
+Epoch  14 Batch  200/1077 - Train Accuracy:  0.911, Validation Accuracy:  0.900, Loss:  0.095
+Epoch  14 Batch  300/1077 - Train Accuracy:  0.944, Validation Accuracy:  0.907, Loss:  0.088
+Epoch  14 Batch  400/1077 - Train Accuracy:  0.930, Validation Accuracy:  0.898, Loss:  0.111
+Epoch  14 Batch  500/1077 - Train Accuracy:  0.942, Validation Accuracy:  0.904, Loss:  0.073
+Epoch  14 Batch  600/1077 - Train Accuracy:  0.934, Validation Accuracy:  0.900, Loss:  0.101
+Epoch  14 Batch  700/1077 - Train Accuracy:  0.917, Validation Accuracy:  0.897, Loss:  0.077
+Epoch  14 Batch  800/1077 - Train Accuracy:  0.9I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 46277214 get requests, put_count=46277221 evicted_count=26000 eviction_rate=0.000561831 and unsatisfied allocation rate=0.000563733
+25, Validation Accuracy:  0.913, Loss:  0.088
+Epoch  14 Batch  900/1077 - Train Accuracy:  0.939, Validation Accuracy:  0.911, Loss:  0.085
+Epoch  14 Batch 1000/1077 - Train Accuracy:  0.902, Validation Accuracy:  0.903, Loss:  0.096
+Epoch  15 Batch    0/1077 - Train Accuracy:  0.932, Validation Accuracy:  0.890, Loss:  0.076
+Epoch  15 Batch  100/1077 - Train Accuracy:  0.943, Validation Accuracy:  0.893, Loss:  0.079
+Epoch  15 Batch  200/1077 - Train Accuracy:  0.902, Validation Accuracy:  0.896, Loss:  0.081
+Epoch  15 Batch  300/1077 - Train Accuracy:  0.957, Validation Accuracy:  0.908, Loss:  0.076
+Epoch  15 Batch  400/1077 - Train Accuracy:  0.919, Validation Accuracy:  0.897, Loss:  0.091
+Epoch  15 Batch  500/1077 - Train Accuracy:  0.938, Validation Accuracy:  0.908, Loss:  0.071
+Epoch  15 Batch  600/1077 - Train Accuracy:  0.942, Validation Accuracy:  0.908, Loss:  0.079
+Epoch  15 Batch  700/1077 - Train Accuracy:  0.918, Validation Accuracy:  0.895, Loss:  0.077
+Epoch  15 Batch  800/1077 - Train Accuracy:  0.938, Validation Accuracy:  0.917, Loss:  0.085
+Epoch  15 Batch  900/1077 - Train Accuracy:  0.932, Validation Accuracy:  0.899, Loss:  0.080
+Epoch  15 Batch 1000/1077 - Train Accuracy:  0.902, Validation Accuracy:  0.890, Loss:  0.076
+Epoch  16 Batch    0/1077 - Train Accuracy:  0.935, Validation Accuracy:  0.889, Loss:  0.071
+Epoch  16 Batch  100/1077 - Train Accuracy:  0.938, Validation Accuracy:  0.893, Loss:  0.081
+Epoch  16 Batch  200/1077 - Train Accuracy:  0.913, Validation Accuracy:  0.897, Loss:  0.077
+Epoch  16 Batch  300/1077 - Train Accuracy:  0.947, Validation Accuracy:  0.904, Loss:  0.069
+Epoch  16 Batch  400/1077 - Train Accuracy:  0.933, Validation Accuracy:  0.903, Loss:  0.096
+Epoch  16 Batch  500/1077 - Train Accuracy:  0.944, Validation Accuracy:  0.906, Loss:  0.061
+Epoch  16 Batch  600/1077 - Train Accuracy:  0.944, Validation Accuracy:  0.909, Loss:  0.071
+Epoch  16 Batch  700/1077 - Train Accuracy:  0.922, Validation Accuracy:  0.914, Loss:  0.070
+Epoch  16 Batch  800/1077 - Train Accuracy:  0.940, Validation Accuracy:  0.914, Loss:  0.077
+Epoch  16 Batch  900/1077 - Train Accuracy:  0.939, Validation Accuracy:  0.898, Loss:  0.075
+Epoch  16 Batch 1000/1077 - Train Accuracy:  0.901, Validation Accuracy:  0.895, Loss:  0.066
+Epoch  17 Batch    0/1077 - Train Accuracy:  0.929, Validation Accuracy:  0.893, Loss:  0.065
+Epoch  17 Batch  100/1077 - Train Accuracy:  0.940, Validation Accuracy:  0.900, Loss:  0.082
+Epoch  17 Batch  200/1077 - Train Accuracy:  0.911, Validation Accuracy:  0.892, Loss:  0.074
+Epoch  17 Batch  300/1077 - Train Accuracy:  0.946, Validation Accuracy:  0.919, Loss:  0.066
+Epoch  17 Batch  400/1077 - Train Accuracy:  0.936, Validation Accuracy:  0.916, Loss:  0.091
+Epoch  17 Batch  500/1077 - Train Accuracy:  0.953, Validation Accuracy:  0.914, Loss:  0.061
+Epoch  17 Batch  600/1077 - Train Accuracy:  0.949, Validation Accuracy:  0.922, Loss:  0.072
+Epoch  17 Batch  700/1077 - Train Accuracy:  0.939, Validation Accuracy:  0.913, Loss:  0.064
+Epoch  17 Batch  800/1077 - Train Accuracy:  0.940, Validation Accuracy:  0.921, Loss:  0.085
+Epoch  17 Batch  900/1077 - Train Accuracy:  0.940, Validation Accuracy:  0.917, Loss:  0.068
+Epoch  17 Batch 1000/1077 - Train Accuracy:  0.916, Validation Accuracy:  0.914, Loss:  0.072
+Epoch  18 Batch    0/1077 - Train Accuracy:  0.932, Validation Accuracy:  0.917, Loss:  0.065
+Epoch  18 Batch  100/1077 - Train Accuracy:  0.942, Validation Accuracy:  0.900, Loss:  0.065
+Epoch  18 Batch  200/1077 - Train Accuracy:  0.926, Validation Accuracy:  0.904, Loss:  0.066
+Epoch  18 Batch  300/1077 - Train Accuracy:  0.947, Validation Accuracy:  0.908, Loss:  0.057
+Epoch  18 Batch  400/1077 - Train Accuracy:  0.927, Validation Accuracy:  0.917, Loss:  0.081
+Epoch  18 Batch  500/1077 - Train Accuracy:  0.943, Validation Accuracy:  0.914, Loss:  0.057
+Epoch  18 Batch  600/1077 - Train Accuracy:  0.954, Validation Accuracy:  0.927, Loss:  0.075
+Epoch  18 Batch  700/1077 - Train Accuracy:  0.944, Validation Accuracy:  0.906, Loss:  0.057
+Epoch  1I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P100-SXM2-16GB, pci bus id: 0003:01:00.0)
+8 Batch  800/1077 - Train Accuracy:  0.938, Validation Accuracy:  0.926, Loss:  0.070
+Epoch  18 Batch  900/1077 - Train Accuracy:  0.938, Validation Accuracy:  0.927, Loss:  0.073
+Epoch  18 Batch 1000/1077 - Train Accuracy:  0.917, Validation Accuracy:  0.918, Loss:  0.064
+Epoch  19 Batch    0/1077 - Train Accuracy:  0.956, Validation Accuracy:  0.902, Loss:  0.052
+Epoch  19 Batch  100/1077 - Train Accuracy:  0.952, Validation Accuracy:  0.916, Loss:  0.073
+Epoch  19 Batch  200/1077 - Train Accuracy:  0.932, Validation Accuracy:  0.930, Loss:  0.067
+Epoch  19 Batch  300/1077 - Train Accuracy:  0.949, Validation Accuracy:  0.923, Loss:  0.061
+Epoch  19 Batch  400/1077 - Train Accuracy:  0.939, Validation Accuracy:  0.913, Loss:  0.070
+Epoch  19 Batch  500/1077 - Train Accuracy:  0.956, Validation Accuracy:  0.922, Loss:  0.052
+Epoch  19 Batch  600/1077 - Train Accuracy:  0.951, Validation Accuracy:  0.921, Loss:  0.059
+Epoch  19 Batch  700/1077 - Train Accuracy:  0.947, Validation Accuracy:  0.913, Loss:  0.056
+Epoch  19 Batch  800/1077 - Train Accuracy:  0.938, Validation Accuracy:  0.926, Loss:  0.068
+Epoch  19 Batch  900/1077 - Train Accuracy:  0.950, Validation Accuracy:  0.922, Loss:  0.059
+Epoch  19 Batch 1000/1077 - Train Accuracy:  0.911, Validation Accuracy:  0.926, Loss:  0.064
+Model Trained and Saved
+Tests Passed
+Input
+  Word Ids:      [158, 190, 219, 63, 9, 227, 124]
+  English Words: [u'he', u'saw', u'a', u'old', u'yellow', u'truck', u'.']
+
+Prediction
+  Word Ids:      [66, 93, 262, 333, 279, 191, 167, 247, 1]
+  French Words: [u'il', u'a', u'vu', u'un', u'vieux', u'camion', u'jaune', u'.', '<EOS>']
