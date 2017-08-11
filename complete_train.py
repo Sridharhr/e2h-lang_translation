@@ -302,14 +302,14 @@ tests.test_seq2seq_model(seq2seq_model)
 # Number of Epochs
 epochs = 20
 # Batch Size
-batch_size = 8 #default 128
+batch_size = 16 #default 128
 # RNN Size
-rnn_size = 1024
+rnn_size = 512
 # Number of Layers
 num_layers = 4
 # Embedding Size
-encoding_embedding_size = 1024
-decoding_embedding_size = 1024
+encoding_embedding_size = 512
+decoding_embedding_size = 512
 # Learning Rate
 learning_rate = 0.001
 # Dropout Keep Probability
